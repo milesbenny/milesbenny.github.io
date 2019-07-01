@@ -15,4 +15,11 @@ class Particle extends VerletParticle2D {
     strokeWeight(2);
     ellipse(this.x, this.y, 32, 32);
   }
+  displayRect() {
+    fill(127);
+    stroke(200);
+    strokeWeight(2);
+    rectMode(CEBTER);
+    rect(this.x, this.y, 25, 10);
+  }
 }
