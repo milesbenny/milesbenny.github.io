@@ -52,7 +52,7 @@ function draw() {
   line(width/2 - 25, 20, width/2 + 25, 20);
 
   // Display the particles
-  p1.display();
+  p1.displayRect();
   p2.display();
 
   // Move the top particle
